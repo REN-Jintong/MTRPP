@@ -8,6 +8,9 @@ Here is the benchmark instances and the source code of the proposed algorithm.
 
 The benchmark instances are grouped into 2 groups collected from [1][2]: Ins_Avci (230 instances) and Ins_Lu (240 instances).
 
+The Ins_Avci can be downloaded from https://www.sciencedirect.com/science/article/pii/S030505481930187X.
+The Ins_Lu can be downloaded here (We have get the permission of the orginal authors).
+
 The source code is implemented in C++ and compiled with g++ 7.5.0. It will be made available upon the publication of the manuscript.
 The manuscript is in submitting. 
 

@@ -21,3 +21,15 @@ Following that, the coordinates as well as the profits of each node are listed.
 [1] M. G. Avci, M. Avci, An adaptive large neighborhood search approach for multiple traveling repairman problem with profits, Computers & Operations Research 111 (2019) 367–385.
 
 [2] Y. Lu, U. Benlic, Q. Wu, B. Peng, Memetic algorithm for the multiple traveling repairman problem with profits, Engineering Applications of Artificial Intelligence 80 (2019) 35–47.
+
+
+This work is already accepted by European journal of Operational Research.
+
+Compile: g++ /*.cpp Object/*.cpp Operator/*.cpp -O3 -lm -o MTRPP
+Run: ./MTRPP -i instance --seed 0 -rep 0
+
+notes: 
+0. g++ with 7.5.0 version or more recent.
+1. "-i" is the benchmark instance.
+2. "--seed" is the seed for the random, you can change it according to your requirements.
+3. "-rep" is a flag for the output file, you can ignore it if you do not use it.
